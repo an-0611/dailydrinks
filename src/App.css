@@ -1,0 +1,105 @@
+/* common css start */
+.App {
+  text-align: center;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.button {
+  margin: 10px 5px;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.input-text {
+  width: 90%;
+}
+
+.selected {
+  background: #ffaabb;
+}
+
+/* common css end */
+
+.header {
+  color: red;
+}
+
+.mainSection {
+  width: 75%;
+  margin: auto;
+  border: 1px solid black;
+}
+
+.newListSection {
+  border: 1px solid black;
+}
+
+.listsHeader, .listsBody, .newListSection  {
+  padding: 20px
+}
+
+.listsBody {
+  height: 35vh;
+  border: 1px solid black;
+  overflow: scroll; 
+}
+
+.listsHeader .item, .listsBody .item  {
+  width: 19%;
+  border: 1px solid black;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.listsBody .item {
+  position: relative;
+	top: 50%;
+  min-height: 47px;
+}
+
+.listsBody .drinkId, .listsBody .drinkName, .listsBody .drinkPrice, .listsBody .drinkStatus {
+  line-height: 47px;
+}
+
+.listsBody .drinkStatus .button {
+  margin: 0;
+  padding: 0;
+}
+
+.listContainer {
+  position: relative;
+}
+
+.deleteInput {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: -10px;
+  margin: auto;
+}
+
+.sortBtn {
+  width: 23%;
+  text-align: center;
+}
